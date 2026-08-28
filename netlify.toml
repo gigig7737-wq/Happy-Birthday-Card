@@ -1,7 +1,7 @@
 [build]
   base = "./"
   publish = "./dist/"
-  command = "npm run build"
+  command = "npm run init-index-local && npm run build:parcel"
 
 [template.environment]
   NAME = "enter Name of the receiver"
